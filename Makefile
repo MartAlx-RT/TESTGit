@@ -53,6 +53,8 @@ GraphicalInterface.o: GraphicalInterface.c
 	$(compiler) -c $(compile_flags) GraphicalInterface.c
 
 # GIT TEST
+#
+# GIT test 2.0
 
 clean:
 	rm *.o
