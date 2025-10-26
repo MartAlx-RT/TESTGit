@@ -52,5 +52,7 @@ Proc_Init_Destroy.o: Proc_Init_Destroy.c
 GraphicalInterface.o: GraphicalInterface.c
 	$(compiler) -c $(compile_flags) GraphicalInterface.c
 
+# GIT TEST
+
 clean:
 	rm *.o
